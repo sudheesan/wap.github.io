@@ -1,0 +1,34 @@
+body {
+    background-color: #595647;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+
+h1 {
+    color: aqua;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divider {
+    border: 1px solid white;
+}
+
+.movie-link {
+    color: red;
+}
+
+.mood_title {
+    color: white;
+    font-style: oblique;
+    font-family: verdana, arial;
+}
+
+li {
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: verdana, arial;
+}
