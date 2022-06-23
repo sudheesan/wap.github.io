@@ -32,3 +32,11 @@ li {
     font-style: oblique;
     font-family: verdana, arial;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
