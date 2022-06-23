@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.my-image {
+    height: 40%;
+    width: 40%;
+}
+
+a {
+    text-align: center;
+}
