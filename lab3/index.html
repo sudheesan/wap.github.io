@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../asstes/lab3/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div> <img src="../asstes/lab3/shop.png" alt="html validator"  class="shop-logo" /></div>
+        <div class="greeting-texts">Welcome, Sudheesan</div>
+        <div class="logout-button-container"><button class="logout-button">Logout</button></div>
+    </div>
+    <div class="body-content">
+        <div class="product list">
+            <h1 class="produc-list-header">Product List</h1>
+            <table class="data-table">
+                <th>
+                    Name
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Stock
+                </th>
+                <th>
+                    Actions
+                </th>
+
+                <tr>
+                    <td>Nodejs</td>
+                    <td>9.99</td>
+                    <td>8</td>
+                    <td><button>Add to cart</button></td>
+                </tr>
+
+                <tr>
+                    <td>React</td>
+                    <td>19.99</td>
+                    <td>5</td>
+                    <td><button>Add to cart</button></td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>13</td>
+                    <td><button>Add to cart</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="shopping cart">
+            <h1 class="produc-list-header">Your Shopping cart</h1>
+            <table class="data-table">
+                <th>
+                    Name
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Total
+                </th>
+                <th>
+                    Quantity
+                </th>
+
+                <tr>
+                    <td>Nodejs</td>
+                    <td>9.99</td>
+                    <td>9.99</td>
+                    <td><button>-</button><input></input><button>+</button></td>
+                </tr>
+
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>290.99</td>
+                    <td><button>-</button><input></input><button>+</button></td>
+                </tr>
+            </table>
+            <div class="total-value-container">
+                <div class="total-value"> <span>Total:</span>&nbsp;&nbsp;&nbsp;<span>300.98</span></div>
+            </div>
+        </div>
+        <div class="place-order-details">
+            <div class="place-order-buttton-container">
+                <button class="place-order-buttton">Place Order</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
