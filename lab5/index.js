@@ -1,6 +1,7 @@
 
 const sum = (numArray) => {
-    return numArray.reduce((a,b)=> a+b);
+    return numArray.filter(value => value > 20)
+    .reduce((a,b)=> a+b)
 }
 
 const numArray = (stringArray) => {
@@ -8,7 +9,7 @@ const numArray = (stringArray) => {
 }
 
 //test array question one
-const newNumArray = [1,2,3,4,5];
+const newNumArray = [1,25,3,25,5];
 
 //test array question two
 const newStringArray = ['abcde', 'abcd', 'abcdefghh', 'abcdhrjjkeje']
