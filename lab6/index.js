@@ -16,8 +16,7 @@ const makeArmy = () => {
 }
 let army = makeArmy();
 
-//army.forEach(fn => fn());
-
+army.forEach(fn => fn());
 
 // ----------------------//
 
@@ -32,13 +31,14 @@ const printNumber = (from, to) => {
 
     let intervalPrinter = setInterval(() => {
         console.log(current++);
-        if(current === to){
+        if (current === to) {
             clearInterval(intervalPrinter);
         }
     }, 1000)
-   
+
 }
-//printNumber(1, 10);
+printNumber(1, 10);
+
 // ----------------------//
 
 
@@ -48,7 +48,7 @@ let i = 0;
 
 setTimeout(() => console.log(i), 100);
 
-for(let j = 0; j < 10; j++){
+for (let j = 0; j < 10; j++) {
     console.log("inc")
     i++;
 }
