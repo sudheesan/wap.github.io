@@ -1,5 +1,5 @@
 var dns = require('dns');
 
-var w3 = dns.lookup('www.miu.edu', function (err, addresses, family) {
+var dnsLookup = dns.lookup('www.miu.edu', function (err, addresses) {
   console.log("IPV4", addresses);
 });
