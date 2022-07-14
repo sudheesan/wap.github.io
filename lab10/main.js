@@ -3,8 +3,11 @@ const arrayProcess = require('./process-array');
 
 const array = [1,2,3,4,5,6,7,8];
 
-console.log(arrayProcess.even(array));
-console.log(arrayProcess.odd(array));
+Array.prototype.even = arrayProcess.even;
+Array.prototype.odd = arrayProcess.odd;
+
+console.log(array.even());
+console.log(array.odd());
 
 
 /*Question 2

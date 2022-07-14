@@ -7,16 +7,16 @@ const isEven = function (value) {
     return false;
 };
 
-module.exports.even = function (array) {
-    return array.filter(function (arrayElement) {
+module.exports.even = function () {
+    return this.filter(function (arrayElement) {
         if (isEven(arrayElement)) {
             return arrayElement;
         }
     });
 }
 
-module.exports.odd = function (array) {
-    return array.filter(function (arrayElement) {
+module.exports.odd = function () {
+    return this.filter(function (arrayElement) {
         if (!isEven(arrayElement)) {
             return arrayElement;
         }
